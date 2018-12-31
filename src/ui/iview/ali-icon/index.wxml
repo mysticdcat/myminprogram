@@ -1,0 +1,1 @@
+<view class="alifont icon-{{ type }}" style="font-size: {{ size }}rpx; vertical-align: {{ va }}rpx; {{ color ? 'color:' + color : '' }}"></view>

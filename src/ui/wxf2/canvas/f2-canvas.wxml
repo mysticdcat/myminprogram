@@ -1,0 +1,11 @@
+<canvas
+style="background: {{bgcolor}}"
+class="f2-canvas"
+canvas-id="{{ canvasId }}"
+bindinit="init"
+bindtouchstart="touchStart"
+bindtouchmove="touchMove"
+bindtouchend="touchEnd"
+bindlongtap="press"
+>
+</canvas>

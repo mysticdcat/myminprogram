@@ -1,0 +1,70 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"miniprogramRoot": "dist/",
+	"compileType": "miniprogram",
+	"appid": "wxf53926cfed9cbe42",
+	"projectname": "coupon-mini-pro",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": 0,
+					"name": "mine",
+					"pathName": "pages/mine/index",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "test",
+					"pathName": "pages/coupon/mine",
+					"query": "",
+					"scene": "1011"
+				},
+				{
+					"id": 2,
+					"name": "current",
+					"pathName": "pages/coupon/writeoff",
+					"query": "",
+					"scene": "1011"
+				},
+				{
+					"id": 3,
+					"name": "current1",
+					"pathName": "pages/coupon/mine",
+					"query": "",
+					"scene": "1011"
+				},
+				{
+					"id": 4,
+					"name": "couponDetail",
+					"pathName": "pages/coupon/detail",
+					"query": "user_coupon_id=3"
+				}
+			]
+		}
+	}
+}
